@@ -1,15 +1,16 @@
 import React from 'react';
 import './styles.css'
-import KeyBoardComponents from './components/KeyBoardComponents.jsx'
+import { KeyBoardComponents } from './components/KeyBoardComponents'
+import { DrawComponent } from './components/DrawComponent'
 
-const HangManComponent = () => {
+export const HangManComponent = () => {
+
     return (
     <div>
       <h1>HangMan</h1>
       <hr />
+      <DrawComponent/>
       <KeyBoardComponents/>
     </div>
   );
 }
-
-export default HangManComponent;

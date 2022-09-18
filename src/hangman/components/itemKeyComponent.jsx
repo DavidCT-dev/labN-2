@@ -1,11 +1,10 @@
-import React from 'react'
-//import ''
+import React from 'react';
 
 const ItemKeyComponent = (props) => {
-  console.log(props)
+  
     return (
     <div className={props.state ? "disablediv" : ""}
-        onClick={()=>{props.handlerClick(props.key)}}
+        onClick={()=>{props.handlerClick(props.myKey)}}
     >
       {props.myKey}
     </div>

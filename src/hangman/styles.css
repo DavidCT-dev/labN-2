@@ -55,5 +55,11 @@ body{
     font-size: 30px;
 }
 
+.guess-word-at-the-moment {
+    letter-spacing: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
 
 
